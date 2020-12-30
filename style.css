@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('Images/nepal.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+    
+}
+#logo{
+    height:70px;
+    width:70px;
+    
+}
+#nav_img{
+    background-color: #F2BBAE;
+    opacity: 80%;
+    height: auto;
+    
+}
+#nav_img{
+    position:;
+    width: 100%;
+}
+#navbar{
+    padding: 10px 100px 1px 5px;
+    background-color: #CF926F;
+    margin: 20px;
+    border-radius: 20px;
+    padding-right: 50px;
+    height: 30px;
+}
+
+nav{ 
+   float:right;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+     padding-right:"";
+    position: relative;
+    top: -10%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+
+a:hover{
+    color: black;
+}
+
+ul{
+    display: flex;
+    list-style:none;
+    color: white;
+}
+
+li{
+    align-content: center;
+    padding: 1px 10px 2px 50px; 
+}
+
+#welcome_text{
+    padding: 40vh;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    
+}
